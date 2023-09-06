@@ -1,0 +1,113 @@
+
+
+body {
+margin : 0px;
+font-family: 'Open Sans', sans-serif;
+/*minimo de altura,no minimoo tenha  100 view port mas de aumentar não tem problema, ou seja, quero que ele ocupe o 10 pedaços da tela*/
+min-height: 100vh;
+}
+
+a{
+/* tirando o sublinhado */
+text-decoration: none;
+color: #1F1534;
+
+}
+
+/* pseudo classe, uma função no css */
+a:hover{
+    font-weight: bold;
+}
+
+.page{ 
+    width: 1000px;
+    margin: 65px auto 0px   ;
+}
+
+nav{
+    /* Estou falando que uma caixa está do lado da outra */
+    display: flex;
+    /* Justifica o conteúdo  */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+
+ul {
+      /* gap quer dizer espaço, ele só está disponivel com a propriedade display */
+      font-family: 'Open Sans', sans-serif;
+      gap: 48px;
+      display: flex;
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+}
+
+section p {
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px ;
+    width: 400px;
+}
+
+section span{
+color: #89C5CC;
+ font-family: 'Mulish', sans-serif;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+section h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    width: 527px;
+}
+
+button {
+    /* transformando o texto em maiusculo */
+    text-transform: uppercase;
+    background-color: #69B99D;
+    color: white;
+    /* alinhando os itens dentro do container */
+    align-items: center;
+    border-radius: 4px;
+    font-family: '  Open Sans', sans-serif;
+    justify-content: center;
+    border: none;
+    display: flex;
+    padding: 14px 32px 15px;
+    /* Espaços */
+    gap:10px;
+    /*colocando o icone da mãozinha no link*/
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3b8f72;
+
+}
+
+footer{
+    font-size: 14px;
+    line-height: 28px;
+    margin: auto;
+}
+
+footer a{
+font-weight: bold;
+
+}
+/*Definindo a imagem*/
+#balls{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+}
